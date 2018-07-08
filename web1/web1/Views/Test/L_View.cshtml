@@ -1,0 +1,45 @@
+﻿<!--变成ViewModel的形式-->
+@using web1.ViewModels
+
+@model EmployeeListViewModel
+
+
+@{
+    Layout = null;
+    //4
+   // web1.Models.Employee emp = (web1.Models.Employee)ViewData["Employee"];//强制类型转换
+
+    //5. 使用ViewBag
+    web1.Models.Employee emp = (web1.Models.Employee)ViewBag.Employee;
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>L_View</title>
+</head>
+<body>
+    <div>
+        <h1>这里是Leochens的View界面</h1>
+        <h2>Hello @Model.UserName</h2>
+        <b>Employee Details </b><br />
+        <table>
+            <thead>员工名</thead>
+            <thead>薪资</thead>
+            @foreach(EmployeeViewModel item in Model.Employees)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td style="color:@item.SalaryColror">@item.Salary</td>
+                </tr>
+
+            }
+
+        </table>
+
+    </div>
+</body>
+</html>

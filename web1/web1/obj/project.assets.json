@@ -13256,11 +13256,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\IT_study\\asp_mvc\\web1\\web1\\web1.csproj",
+      "projectUniqueName": "E:\\IT_study\\asp_mvc\\ASP_MVC\\web1\\web1\\web1.csproj",
       "projectName": "web1",
-      "projectPath": "E:\\IT_study\\asp_mvc\\web1\\web1\\web1.csproj",
+      "projectPath": "E:\\IT_study\\asp_mvc\\ASP_MVC\\web1\\web1\\web1.csproj",
       "packagesPath": "C:\\Users\\11834\\.nuget\\packages\\",
-      "outputPath": "E:\\IT_study\\asp_mvc\\web1\\web1\\obj\\",
+      "outputPath": "E:\\IT_study\\asp_mvc\\ASP_MVC\\web1\\web1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

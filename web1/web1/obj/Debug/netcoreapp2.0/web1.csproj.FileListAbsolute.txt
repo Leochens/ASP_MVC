@@ -9,3 +9,14 @@ E:\IT_study\asp_mvc\web1\web1\obj\Debug\netcoreapp2.0\web1.AssemblyInfo.cs
 E:\IT_study\asp_mvc\web1\web1\bin\Debug\netcoreapp2.0\web1.pdb
 E:\IT_study\asp_mvc\web1\web1\obj\Debug\netcoreapp2.0\web1.dll
 E:\IT_study\asp_mvc\web1\web1\obj\Debug\netcoreapp2.0\web1.pdb
+E:\IT_study\asp_mvc\ASP_MVC\web1\web1\bin\Debug\netcoreapp2.0\web1.deps.json
+E:\IT_study\asp_mvc\ASP_MVC\web1\web1\bin\Debug\netcoreapp2.0\web1.runtimeconfig.json
+E:\IT_study\asp_mvc\ASP_MVC\web1\web1\bin\Debug\netcoreapp2.0\web1.runtimeconfig.dev.json
+E:\IT_study\asp_mvc\ASP_MVC\web1\web1\bin\Debug\netcoreapp2.0\web1.dll
+E:\IT_study\asp_mvc\ASP_MVC\web1\web1\bin\Debug\netcoreapp2.0\web1.pdb
+E:\IT_study\asp_mvc\ASP_MVC\web1\web1\obj\Debug\netcoreapp2.0\web1.csprojAssemblyReference.cache
+E:\IT_study\asp_mvc\ASP_MVC\web1\web1\obj\Debug\netcoreapp2.0\web1.csproj.CoreCompileInputs.cache
+E:\IT_study\asp_mvc\ASP_MVC\web1\web1\obj\Debug\netcoreapp2.0\web1.AssemblyInfoInputs.cache
+E:\IT_study\asp_mvc\ASP_MVC\web1\web1\obj\Debug\netcoreapp2.0\web1.AssemblyInfo.cs
+E:\IT_study\asp_mvc\ASP_MVC\web1\web1\obj\Debug\netcoreapp2.0\web1.dll
+E:\IT_study\asp_mvc\ASP_MVC\web1\web1\obj\Debug\netcoreapp2.0\web1.pdb

@@ -8,7 +8,7 @@ namespace web1.ViewModels
 
     public class EmployeeListViewModel
     {
-        public List<EmployeeListViewModel> Employees { set; get; }
+        public List<EmployeeViewModel> Employees { set; get; }
         public string UserName { set; get; }
     }
 }

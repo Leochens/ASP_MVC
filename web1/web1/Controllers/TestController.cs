@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -84,5 +85,17 @@ namespace web1.Controllers
 
             return View("L_View", employeeListView);//这里对应的是具体的额视图名称
         }
+
+
+        public ActionResult zhl()
+        {
+            /*string connString = "server=127.0.0.1;database=mvc_test;user id=root;pwd=123456;";
+
+            SqlConnection con = new SqlConnection(connString);
+            con.Open();*/
+
+            return View("Z_View");
+        }
+
     }
 }

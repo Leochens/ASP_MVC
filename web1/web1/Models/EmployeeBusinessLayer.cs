@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using web1.Data_Access_Layer;
+using System.Configuration;
 
 namespace web1.Models
 {
@@ -11,25 +13,11 @@ namespace web1.Models
        
         public List<Employee> GetEmployees()
         {
-            List<Employee> employees = new List<Employee>();
-            Employee emp = new Employee();
-            emp.FirstName = "johnson";
-            emp.LastName = " fernandes";
-            emp.Salary = 14000;
-            employees.Add(emp);
-
-            emp = new Employee();
-            emp.FirstName = "Leo";
-            emp.LastName = " Chens";
-            emp.Salary = 300000000;
-            employees.Add(emp);
-            emp = new Employee();
-            emp.FirstName = "Adam";
-            emp.LastName = " Link";
-            emp.Salary = 90000;
-            employees.Add(emp);
-
-            return employees;
+            // string connStr = ConfigurationManager.AppSettings["ConnectionString"];
+            // string conn = ConfigurationManager.ConnectionStrings["JXC_SQLConnString"].ConnectionString;
+            string _connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["strCon"].ToString();
+            SalesERPDAL salesDal = new SalesERPDAL();
+            return salesDal.Employees.ToList();
         }
     }
 }
